@@ -1,0 +1,53 @@
+/* a set of CSS */
+
+.button-center {
+  padding: 5px;
+  position: relative;
+  left: 100px;
+}
+
+.button {
+  font-size: 26px;
+  background-color: rgb(6, 214, 160);
+  font-family: 'Sarabun';
+}
+
+.header {
+  font-size: 32px;
+  font-family: 'Sarabun';
+}
+
+.horizontalLayout {
+  display: inline-block;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 150px;
+  height: 12px;
+  background: rgb(6, 214, 160);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: rgb(36, 36, 35);
+  cursor: pointer;
+}
+p {
+  font-family: 'Sarabun';
+}
+
+td {
+  ffont-family: 'Sarabun';
+}

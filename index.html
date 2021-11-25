@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <link href='https://fonts.googleapis.com/css?family=Sarabun' rel='stylesheet'>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Adding an h1 header that says "Tap The Tune" -->
+    <h1 class="header">
+      Tap The Tune
+    </h1>
+    <!-- Adding a table -->
+    <table>
+      <tr>
+        <!-- Styling the button to be padded 40 pixels to the right -->
+        <td style="padding-right:40px">
+          <!-- Adding a button that says "Play" -->
+          <button class="button" onclick="Play()">Play</button>
+        </td>
+        <!-- Styling the button to have a width of 40 pixels -->
+        <td style="width:80px">
+          <!-- Adding a speed slider -->
+          <p>Speed: <span id="spd"></span></p>
+        </td>
+        <!-- Styling the button to have a width of 200 pixels -->
+        <td style="width:200px">
+          <!-- Adding an input range for the slider -->
+          <input type="range" min="1" max="10" value="5" class="slider" id="sliderRange" />
+        </td>
+        <!-- Styling the button to have a width of 150 pixels and a padding left of 150 pixels -->
+        <td style="width:150px, padding-left:150px">
+          <!-- Adding a help button -->
+          <button class="button" onclick="location.href='help.html'" type="button">Help</button>
+        </td>
+        <!-- Styling the button to have a width of 150 pixels and a padding left of 150 pixels -->
+        <td style="width:150px, padding-left:150px">
+          <!-- Adding a song mode button -->
+          <button class="button" onclick="location.href='songmode.html'" type="button" >Song Mode</button>
+        </td>
+      </tr>
+    </table>
+    <script>
+      <!-- Setting song mode equal to 0 -->
+      var songMode = 0;
+    </script>
+
+    <script>
+      var slider = document.getElementById("sliderRange");
+      var output = document.getElementById("spd");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function() {
+        output.innerHTML = this.value;
+      };
+    </script>
+
+    <!-- Declaring all media needed -->
+    <script src="https://cdn.jsdelivr.net/npm/p5"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    <script src="Z_GAME.js"></script>
+    <script src="note.js"></script>
+    <script src="playfield.js"></script>
+    <script src="score.js"></script>
+    <script src="health.js"></script>
+    <script src="song_mode_deactivate.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </body>
+</html>
