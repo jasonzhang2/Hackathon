@@ -1,6 +1,6 @@
 # Tap Tune
 
-##PLAY THE GAME: https://jasonzhang2.github.io/Hackathon/ 
+## PLAY THE GAME: https://jasonzhang2.github.io/Hackathon/ 
 
 Authors: Stefan Martincevic, Jason Zhang, Wlliam Vigneron
 
