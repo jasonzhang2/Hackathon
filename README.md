@@ -1,4 +1,4 @@
-# Tap Tune
+# Tap The Tune!
 
 ## PLAY THE GAME: https://jasonzhang2.github.io/Hackathon/ 
 
