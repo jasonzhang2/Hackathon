@@ -6,7 +6,7 @@ Authors: Stefan Martincevic, Jason Zhang, Wlliam Vigneron
 
 Publication date: 11/25/2021
 
-Program: Javascript, html, css
+Languages used: Javascript, html, css (as well as p5.js)
 
 Purpose: To create an educational game that helps practice musical and rhythmic sense, as well as hand-eye coordination and pattern processing.
 
